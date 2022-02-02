@@ -1,4 +1,4 @@
-package com.studies.msscbeerservice.web.model;
+package studies.common.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

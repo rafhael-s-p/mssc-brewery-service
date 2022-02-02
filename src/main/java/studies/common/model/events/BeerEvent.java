@@ -1,6 +1,6 @@
-package studies.common.events;
+package studies.common.model.events;
 
-import com.studies.msscbeerservice.web.model.BeerDto;
+import studies.common.model.BeerDto;
 import lombok.*;
 
 import java.io.Serializable;
