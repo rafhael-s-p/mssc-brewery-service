@@ -1,6 +1,5 @@
-package com.studies.msscbeerservice.service.invetory;
+package com.studies.msscbeerservice.services.invetory;
 
-import com.studies.msscbeerservice.bootstrap.BeerLoader;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;

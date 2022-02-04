@@ -1,4 +1,4 @@
-package com.studies.msscbeerservice.service;
+package com.studies.msscbeerservice.services;
 
 import studies.common.model.BeerDto;
 import studies.common.model.BeerPagedList;

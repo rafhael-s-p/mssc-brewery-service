@@ -1,4 +1,4 @@
-package com.studies.msscbeerservice.service;
+package com.studies.msscbeerservice.services;
 
 import com.studies.msscbeerservice.domain.Beer;
 import com.studies.msscbeerservice.repositories.BeerRepository;

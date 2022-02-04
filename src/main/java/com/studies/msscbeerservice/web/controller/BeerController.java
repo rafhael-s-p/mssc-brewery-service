@@ -1,6 +1,6 @@
 package com.studies.msscbeerservice.web.controller;
 
-import com.studies.msscbeerservice.service.BeerService;
+import com.studies.msscbeerservice.services.BeerService;
 import studies.common.model.BeerDto;
 import studies.common.model.BeerPagedList;
 import studies.common.model.BeerStyleEnum;

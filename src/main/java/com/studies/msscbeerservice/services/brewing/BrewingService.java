@@ -1,10 +1,10 @@
-package com.studies.msscbeerservice.service.brewing;
+package com.studies.msscbeerservice.services.brewing;
 
 import com.studies.msscbeerservice.config.JmsConfig;
 import com.studies.msscbeerservice.domain.Beer;
 import studies.common.model.events.BrewBeerEvent;
 import com.studies.msscbeerservice.repositories.BeerRepository;
-import com.studies.msscbeerservice.service.invetory.BeerInventoryService;
+import com.studies.msscbeerservice.services.invetory.BeerInventoryService;
 import com.studies.msscbeerservice.web.mappers.BeerMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -2,7 +2,7 @@ package com.studies.msscbeerservice.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.studies.msscbeerservice.bootstrap.BeerLoader;
-import com.studies.msscbeerservice.service.BeerService;
+import com.studies.msscbeerservice.services.BeerService;
 import studies.common.model.BeerDto;
 import studies.common.model.BeerStyleEnum;
 import org.junit.jupiter.api.Test;
