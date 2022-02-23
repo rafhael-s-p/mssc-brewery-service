@@ -1,4 +1,4 @@
-package studies.common.model;
+package com.studies.brewery.model;
 
 public enum BeerStyleEnum {
 

@@ -2,7 +2,7 @@ package com.studies.msscbeerservice.services.brewing;
 
 import com.studies.msscbeerservice.config.JmsConfig;
 import com.studies.msscbeerservice.domain.Beer;
-import studies.common.model.events.BrewBeerEvent;
+import com.studies.brewery.model.events.BrewBeerEvent;
 import com.studies.msscbeerservice.repositories.BeerRepository;
 import com.studies.msscbeerservice.services.invetory.BeerInventoryService;
 import com.studies.msscbeerservice.web.mappers.BeerMapper;

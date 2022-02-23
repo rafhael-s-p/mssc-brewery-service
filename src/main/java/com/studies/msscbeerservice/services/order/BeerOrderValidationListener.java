@@ -5,8 +5,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Component;
-import studies.common.model.events.ValidateOrderRequest;
-import studies.common.model.events.ValidateOrderResult;
+import com.studies.brewery.model.events.ValidateOrderRequest;
+import com.studies.brewery.model.events.ValidateOrderResult;
 
 @RequiredArgsConstructor
 @Component
