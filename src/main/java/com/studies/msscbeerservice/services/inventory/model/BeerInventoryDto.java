@@ -1,4 +1,4 @@
-package com.studies.msscbeerservice.services.invetory.model;
+package com.studies.msscbeerservice.services.inventory.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,6 +1,6 @@
-package com.studies.msscbeerservice.services.invetory;
+package com.studies.msscbeerservice.services.inventory;
 
-import com.studies.msscbeerservice.services.invetory.model.BeerInventoryDto;
+import com.studies.msscbeerservice.services.inventory.model.BeerInventoryDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.web.client.RestTemplateBuilder;

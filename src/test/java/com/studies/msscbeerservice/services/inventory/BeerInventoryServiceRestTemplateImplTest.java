@@ -1,4 +1,4 @@
-package com.studies.msscbeerservice.services.invetory;
+package com.studies.msscbeerservice.services.inventory;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;

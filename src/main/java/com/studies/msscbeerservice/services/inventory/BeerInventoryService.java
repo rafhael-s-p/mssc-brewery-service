@@ -1,4 +1,4 @@
-package com.studies.msscbeerservice.services.invetory;
+package com.studies.msscbeerservice.services.inventory;
 
 import java.util.UUID;
 
