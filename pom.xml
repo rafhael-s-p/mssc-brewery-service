@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.RafhaelSouza</groupId>
-        <artifactId>mssc-brewery-bom</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <artifactId>mssc-brewery-works-bom</artifactId>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>mssc-beer-service</artifactId>
