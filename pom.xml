@@ -33,9 +33,9 @@
     </dependencies>
 
     <scm>
-        <connection>scm:git:git@github.com:RafhaelSouza/mssc-brewery-service.git</connection>
-        <developerConnection>scm:git:git@github.com:RafhaelSouza/mssc-brewery-service.git</developerConnection>
-        <url>https://github.com/RafhaelSouza/mssc-brewery-service</url>
+        <connection>scm:git:git@github.com:RafhaelSouza/mssc-beer-service.git</connection>
+        <developerConnection>scm:git:git@github.com:RafhaelSouza/mssc-beer-service.git</developerConnection>
+        <url>https://github.com/RafhaelSouza/mssc-beer-service</url>
         <tag>HEAD</tag>
     </scm>
 
