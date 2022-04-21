@@ -10,11 +10,11 @@ services:
     ports:
       - 9411:9411
   eureka:
-    image: rafhaeldev/sfg-brewery-eureka
+    image: rafhaeldev/mssc-brewery-eureka
     ports:
       - 8761:8761
   config:
-    image: rafhaeldev/sfg-brewery-config
+    image: rafhaeldev/mssc-brewery-config
     ports:
       - 8888:8888
     depends_on:
@@ -23,7 +23,7 @@ services:
       EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://netflix:eureka@eureka:8761/eureka/
       EUREKA_INSTANCE_PREFER_IP_ADDRESS: 'true'
   inventory:
-    image: rafhaeldev/sfg-brewery-inventory-service
+    image: rafhaeldev/mssc-beer-inventory-service
     ports:
       - 8082:8082
     depends_on:
@@ -39,7 +39,7 @@ services:
       EUREKA_INSTANCE_PREFER_IP_ADDRESS: 'true'
     restart: on-failure
   inventory-failover:
-    image: rafhaeldev/sfg-brewery-inventory-failover
+    image: rafhaeldev/mssc-inventory-failover
     ports:
       - 8083:8083
     depends_on:
@@ -49,7 +49,7 @@ services:
       EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://netflix:eureka@eureka:8761/eureka/
       EUREKA_INSTANCE_PREFER_IP_ADDRESS: 'true'
   beer-service:
-    image: rafhaeldev/sfg-brewery-beer-service
+    image: rafhaeldev/mssc-beer-service
     ports:
       - 8080:8080
     depends_on:
@@ -66,7 +66,7 @@ services:
       SPRING_ARTEMIS_HOST: jms
     restart: on-failure
   order-service:
-    image: rafhaeldev/sfg-brewery-order-service
+    image: rafhaeldev/mssc-beer-order-service
     ports:
       - 8081:8081
     depends_on:
@@ -84,7 +84,7 @@ services:
       SFG_BREWERY_BEER-SERVICE-HOST: http://beer-service:8080
     restart: on-failure
   gateway:
-    image: rafhaeldev/sfg-brewery-gateway
+    image: rafhaeldev/mssc-brewery-gateway
     ports:
       - 9090:9090
     depends_on:
