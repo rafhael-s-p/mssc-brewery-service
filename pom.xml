@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.github.RafhaelSouza</groupId>
+        <groupId>io.github.rafhael-s-p</groupId>
         <artifactId>mssc-brewery-bom</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>mssc-beer-service</artifactId>
@@ -33,9 +33,9 @@
     </dependencies>
 
     <scm>
-        <connection>scm:git:git@github.com:RafhaelSouza/mssc-beer-service.git</connection>
-        <developerConnection>scm:git:git@github.com:RafhaelSouza/mssc-beer-service.git</developerConnection>
-        <url>https://github.com/RafhaelSouza/mssc-beer-service</url>
+        <connection>scm:git:git@github.com:rafhael-s-p/mssc-beer-service.git</connection>
+        <developerConnection>scm:git:git@github.com:rafhael-s-p/mssc-beer-service.git</developerConnection>
+        <url>https://github.com/rafhael-s-p/mssc-beer-service</url>
         <tag>HEAD</tag>
     </scm>
 
